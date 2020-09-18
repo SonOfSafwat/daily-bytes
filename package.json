@@ -2,7 +2,6 @@
   "name": "daily-bytes",
   "version": "1.0.0",
   "description": "Abdelrhman Safwat solutions for Daily Bytes problems",
-  "main": "index.js",
   "scripts": {
     "test": "npm test",
     "lint:eslint": "eslint 'src/**/*.js'",
