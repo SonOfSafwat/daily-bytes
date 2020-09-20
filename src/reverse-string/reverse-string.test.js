@@ -1,7 +1,7 @@
 import reverse from './reverse-string';
 
 test('Cat”, return “taC', () => {
-  expect(reverse('Cat')).toBe('tac');
+  expect(reverse('Cat')).toBe('taC');
 });
 
 test('“The Daily Byte”, return "etyB yliaD ehT”', () => {
