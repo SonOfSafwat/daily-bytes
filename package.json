@@ -2,6 +2,10 @@
   "name": "daily-bytes",
   "version": "1.0.0",
   "description": "Abdelrhman Safwat solutions for Daily Bytes problems",
+  "main": "index.js",
+  "author": "Abdelrhman Safwat",
+  "homepage": "https://github.com/SonOfSafwat/daily-bytes#readme",
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "lint:eslint": "eslint 'src/**/*.js'",
@@ -12,14 +16,23 @@
     "commit:retry": "git-cz --retry",
     "commitmsg": "commitlint -e"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "cz-customizable.config.js"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "keywords": [
     "daily-bytes",
     "problems",
     "data-structures",
     "algorithms"
   ],
-  "author": "Abdelrhman Safwat",
-  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "7.11.6",
@@ -41,21 +54,11 @@
     "prettier": "^2.1.2",
     "standard-version": "^9.0.0"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": "cz-customizable.config.js"
-    }
-  },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SonOfSafwat/daily-bytes.git"
   },
   "bugs": {
     "url": "https://github.com/SonOfSafwat/daily-bytes/issues"
-  },
-  "homepage": "https://github.com/SonOfSafwat/daily-bytes#readme"
+  }
 }
