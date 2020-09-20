@@ -1,3 +1,3 @@
-import { isValidPalindrome } from 'valid-palindrome';
+import isValidPalindrome from './valid-palindrome';
 
 export default isValidPalindrome;
