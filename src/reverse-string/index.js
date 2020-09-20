@@ -1,3 +1,3 @@
-import reverse from 'reverse-string';
+import reverse from './reverse-string';
 
-export { reverse };
+export default reverse;
